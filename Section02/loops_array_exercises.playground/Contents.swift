@@ -31,6 +31,9 @@ if intArray.isEmpty {
     print("int array has \(intArray.count) items")
 }
 
+for (index, value) in intArray.enumerated() {
+    print("Item \(index + 1): \(value)")
+}
 
 
 // Loop exercises
